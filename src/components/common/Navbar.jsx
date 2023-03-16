@@ -2,7 +2,7 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="bg-[#F1EFF0] px-2 sm:px-4 py-2.5 border-b-4 sticky top-0">
+    <nav className="bg-[#F1EFF0] px-2 sm:px-4 py-2.5 border-b-4 sticky top-0 z-20">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="/" className="flex items-center">
           <span className="self-center text-3xl whitespace-nowrap text-[#23212B] nav-logo">
@@ -79,7 +79,7 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div class="relative">
+        <div class="relative hidden lg:block">
           <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
             <svg
               aria-hidden="true"

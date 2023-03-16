@@ -3,14 +3,14 @@ import { AiFillStar } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className="flex lg:flex-row flex-col justify-between w-full lg:pl-40 md:pl-20 sm:pl-10 h-full">
+    <div className="flex lg:flex-row flex-col justify-between max-w-[1800px] m-auto lg:pl-40 md:pl-20 sm:pl-10 h-full">
       <div className="mt-10">
         <div className="flex flex-col">
           <h1 className="hero-title text-[#23212B] text-5xl md:text-4xl lg:text-8xl lg:leading-normal leading-normal text-center lg:text-start">
             it's not just <br /> <span className="text-[#EF5A34]">Food,</span>{" "}
             It's an <br /> Experience
           </h1>
-          <p className="hero-description mt-10 text-[#B0ADAE] lg:text-xl text-sm text-center">
+          <p className="hero-description mt-10 text-[#8F8F8F] lg:text-xl text-sm text-center">
             We are most fastest and favourite food delivery service <br /> all
             over the world. Search for your favourite food.
           </p>
@@ -63,7 +63,7 @@ const Hero = () => {
           src="../../public/images/hero2-img.png"
           alt="japanese food"
           width="1050"
-          className="hidden lg:block"
+          className="hidden xl:block"
         />
       </div>
     </div>
