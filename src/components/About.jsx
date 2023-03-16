@@ -39,38 +39,41 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="text-[#EF5A34] hero-description flex flex-col lg:flex-row m-auto lg:mt-30 space-y-4 lg:space-y-0 mt-28 lg:space-x-48">
-        <div className="flex flex-col items-center">
-          <span className="font-bold text-4xl lg:text-6xl">
-            <NumberDiv value={4} interval={1000} />
-          </span>
-          <p className="text-[#8F8F8F] w-max">YEARS OF EXPERIENCE</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <span className="font-bold text-4xl lg:text-6xl">
-            <NumberDiv value={60} interval={100} />
-          </span>
-          <p className="text-[#8F8F8F]">MENUS/DISH</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <span className="font-bold text-4xl lg:text-6xl">
-            <NumberDiv value={77} interval={100} />
-          </span>
-          <p className="text-[#8F8F8F]">STAFFS</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <span className="font-bold text-4xl lg:text-6xl">
-            <NumberDiv value={7500} interval={1} />
-          </span>
-          <p className="text-[#8F8F8F]">HAPPY CUSTOMERS</p>
-        </div>
-        <div className="text-[#23212B] lg:text-base italic lg:leading-9 lg:border-l-2 border-[#8f8f8fa2] pl-4 pt-28 lg:pt-0">
+      <div className="flex flex-col lg:flex-row">
+          <div className="text-[#EF5A34] hero-description flex flex-col lg:flex-row m-auto lg:mt-30 space-y-4 lg:space-y-0 mt-28 lg:space-x-48 lg:w-[75%]">
+            <div className="flex flex-col lg:items-start items-center">
+              <span className="font-bold text-4xl lg:text-6xl w-10">
+                <NumberDiv value={4} interval={1000} />
+              </span>
+              <p className="text-[#8F8F8F] lg:w-30 text-center">YEARS OF EXPERIENCE</p>
+            </div>
+            <div className="flex flex-col lg:items-start items-center">
+              <span className="font-bold text-4xl lg:text-6xl w-10">
+                <NumberDiv value={60} interval={100} />
+              </span>
+              <p className="text-[#8F8F8F] w-30 text-center">MENUS/DISH</p>
+            </div>
+            <div className="flex flex-col lg:items-start items-center">
+              <span className="font-bold text-4xl lg:text-6xl w-10">
+                <NumberDiv value={77} interval={100} />
+              </span>
+              <p className="text-[#8F8F8F] w-30 text-center">STAFFS</p>
+            </div>
+            <div className="flex flex-col lg:items-start items-center">
+              <span className="font-bold text-4xl lg:text-6xl w-fit">
+                <NumberDiv value={7500} interval={1} />
+              </span>
+              <p className="text-[#8F8F8F] w-30">HAPPY CUSTOMERS</p>
+            </div>
+          </div>
+          <div className="text-[#23212B] lg:text-base italic lg:leading-9 lg:border-l-2 border-[#8f8f8fa2] lg:pl-4 pt-28 lg:pt-0 lg:w-[25%]">
           "When you acknowledge, as you must, that there is no such thing as
           perfect food, only the idea of it, then the real purpose of striving
           toward perfection becomes clear: to make people happy, that is what
           cooking is all about." <br /> <span className="no-italic font-bold">- Thomas Keller</span>
         </div>
       </div>
+      
     </div>
   );
 };
