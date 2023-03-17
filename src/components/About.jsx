@@ -3,7 +3,7 @@ import NumberDiv from "../controller/NumberDiv";
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-between max-w-[1800px] m-auto lg:pl-40 md:pl-20 sm:pl-10 mt-40 mx-4 h-full lg:mt-72">
+    <div className="flex flex-col max-w-[1500px] m-auto mt-40 h-full lg:mt-72 px-4">
       <div className="flex flex-col lg:flex-row">
         <div className="flex flex-row w-[50%] h-[480px] lg:w[400px]">
           <img
@@ -40,7 +40,7 @@ const About = () => {
         </div>
       </div>
       <div className="flex flex-col lg:flex-row">
-          <div className="text-[#EF5A34] hero-description flex flex-col lg:flex-row m-auto lg:mt-30 space-y-4 lg:space-y-0 mt-28 lg:space-x-48 lg:w-[75%]">
+          <div className="text-[#EF5A34] hero-description flex flex-col lg:flex-row m-auto lg:mt-30 space-y-4 lg:space-y-0 mt-28 lg:space-x-32 lg:w-[75%]">
             <div className="flex flex-col lg:items-start items-center">
               <span className="font-bold text-4xl lg:text-6xl w-10">
                 <NumberDiv value={4} interval={1000} />
