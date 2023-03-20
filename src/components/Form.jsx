@@ -14,19 +14,19 @@ const Form = () => {
 
         <form className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
           <div className="flex flex-col">
-            <label htmlFor="name">
+            <label htmlFor="name" className="lg:text-xl">
               Name:
             </label>
             <input
               type="text"
               id="name"
               name="name"
-              className="border p-2"
+              className="border p-2 text"
               placeholder="Your Name"
             />
           </div>
           <div className="flex flex-col">
-            <label htmlFor="email">Email:</label>
+            <label htmlFor="email" className="lg:text-xl">Email:</label>
             <input
               type="email"
               id="email"
@@ -36,7 +36,7 @@ const Form = () => {
             />
           </div>
           <div className="flex flex-col">
-            <label htmlFor="phone">Phone:</label>
+            <label htmlFor="phone" className="lg:text-xl">Phone:</label>
             <input
               type="tel"
               id="phone"
@@ -46,15 +46,15 @@ const Form = () => {
             />
           </div>
           <div className="flex flex-col">
-            <label htmlFor="date">Date:</label>
+            <label htmlFor="date" className="lg:text-xl">Date:</label>
             <input type="date" id="date" name="date" className="border p-2" />
           </div>
           <div className="flex flex-col">
-            <label htmlFor="time">Time:</label>
+            <label htmlFor="time" className="lg:text-xl">Time:</label>
             <input type="time" id="time" name="time" className="border p-2" />
           </div>
           <div className="flex flex-col">
-            <label htmlFor="person">Person:</label>
+            <label htmlFor="person" className="lg:text-xl">Person:</label>
             <input
               type="number"
               id="person"
@@ -64,7 +64,7 @@ const Form = () => {
           </div>
           <button
             type="submit"
-            className="bg-[#3EA86B] hover:bg-[#EF5A34] text-white font-bold py-2 px-4 rounded"
+            className="bg-[#3EA86B] hover:bg-[#EF5A34] text-white font-bold py-2 px-4 rounded lg:text-xl"
           >
             Make a Reservation
           </button>

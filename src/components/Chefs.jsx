@@ -8,7 +8,7 @@ import {
 
 const Chefs = () => {
   return (
-    <div className="bg-white pb-32">
+    <div className="bg-white pb-40">
       <div className='className="flex flex-col items-center pt-24 lg:pt-52 max-w-[1500px] hero-description m-auto'>
         <div>
           <h1 className="mb-14 text-center">
