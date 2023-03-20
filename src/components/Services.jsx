@@ -12,10 +12,11 @@ const Services = () => {
           <span className="hero-title text-3xl">Catering Services</span>
         </h1>
       </div>
+
       <div className="flex flex-col lg:flex-row lg:space-x-20">
         <div className="flex flex-col items-center w-80 m-auto hero-description">
           <span>
-            <RiCake2Line size={80} color="#EF5A34"/>
+            <RiCake2Line size={80} color="#EF5A34" />
           </span>
           <h2 className="text-2xl py-4">Birthday Party</h2>
           <p className="leading-8 text-center text-[#8F8F8F]">
@@ -26,7 +27,7 @@ const Services = () => {
         </div>
         <div className="flex flex-col items-center w-80 m-auto hero-description mt-6">
           <span>
-            <MdOutlinePeopleAlt size={80} color="#EF5A34"/>
+            <MdOutlinePeopleAlt size={80} color="#EF5A34" />
           </span>
           <h2 className="text-2xl py-4">Business Meetings</h2>
           <p className="leading-8 text-center text-[#8F8F8F]">
@@ -36,7 +37,7 @@ const Services = () => {
         </div>
         <div className="flex flex-col items-center w-80 m-auto hero-description mt-6">
           <span>
-            <RiRestaurantLine size={80} color="#EF5A34"/>
+            <RiRestaurantLine size={80} color="#EF5A34" />
           </span>
           <h2 className="text-2xl py-4">Wedding Party</h2>
           <p className="leading-8 text-center text-[#8F8F8F]">

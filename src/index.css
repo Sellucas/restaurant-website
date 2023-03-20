@@ -25,3 +25,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
 }
+
+.form-section {
+    background-image: url(../public/images/bg-form.jpeg);
+}
