@@ -69,7 +69,7 @@ const Hero = () => {
 
         <div>
           <img
-            src="../public/images/hero2-img.png"
+            src="./public/images/hero2-img.png"
             alt="japanese food"
             width="1050"
             className="hidden xl:block"
