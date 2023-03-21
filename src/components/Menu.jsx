@@ -22,7 +22,7 @@ const Menu = () => {
               <div className="border border-gray-300 h-60 order-1 md:order-1">
                 <img
                   className="h-full w-full object-cover"
-                  src="../../public/images/menu-1.jpeg"
+                  src="../public/images/menu-1.jpeg"
                   alt="Imagem 1"
                 />
               </div>
@@ -45,7 +45,7 @@ const Menu = () => {
               <div className="border border-gray-300 h-60 order-3 md:order-3">
                 <img
                   className="h-full w-full object-cover"
-                  src="../../public/images/menu-2.jpg"
+                  src="../public/images/menu-2.jpg"
                   alt="Imagem 2"
                 />
               </div>
@@ -82,7 +82,7 @@ const Menu = () => {
               <div className="border border-gray-300 h-60 order-5 md:order-6">
                 <img
                   className="h-full w-full object-cover"
-                  src="../../public/images/menu-3.jpg"
+                  src="../public/images/menu-3.jpg"
                   alt="Imagem 3"
                 />
               </div>
@@ -103,7 +103,7 @@ const Menu = () => {
               <div className="border border-gray-300 h-60 order-7 md:order-8">
                 <img
                   className="h-full w-full object-cover"
-                  src="../../public/images/menu-4.jpeg"
+                  src="../public/images/menu-4.jpeg"
                   alt="Imagem 3"
                 />
               </div>
@@ -112,7 +112,7 @@ const Menu = () => {
               <div className="border border-gray-300 h-60 order-9 md:order-9">
                 <img
                   className="h-full w-full object-cover"
-                  src="../../public/images/menu-5.jpg"
+                  src="../public/images/menu-5.jpg"
                   alt="Imagem 3"
                 />
               </div>
@@ -133,7 +133,7 @@ const Menu = () => {
               <div className="border border-gray-300 h-60 order-11 md:order-11">
                 <img
                   className="h-full w-full object-cover"
-                  src="../../public/images/menu-6.jpeg"
+                  src="../public/images/menu-6.jpeg"
                   alt="Imagem 3"
                 />
               </div>

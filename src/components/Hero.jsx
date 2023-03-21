@@ -35,22 +35,22 @@ const Hero = () => {
           <div className=" mt-20 relative flex flex-col items-center lg:flex-row">
             <div className="flex flex-row mb-5">
               <img
-                src="../../../public/images/3.jpg"
+                src="../public/images/3.jpg"
                 alt=""
                 className="rounded-full w-14 h-14"
               />
               <img
-                src="../../../public/images/41.jpg"
+                src="../public/images/41.jpg"
                 alt=""
                 className="rounded-full w-14 h-14"
               />
               <img
-                src="../../../public/images/46.jpg"
+                src="../public/images/46.jpg"
                 alt=""
                 className="rounded-full w-14 h-14"
               />
               <img
-                src="../../../public/images/74.jpg"
+                src="../public/images/74.jpg"
                 alt=""
                 className="rounded-full w-14 h-14"
               />
@@ -69,7 +69,7 @@ const Hero = () => {
 
         <div>
           <img
-            src="../../public/images/hero2-img.png"
+            src="../public/images/hero2-img.png"
             alt="japanese food"
             width="1050"
             className="hidden xl:block"

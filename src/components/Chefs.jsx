@@ -25,7 +25,7 @@ const Chefs = () => {
             <div>
               <div className="h-80">
                 <img
-                  src="../../public/images/chef-1.jpeg"
+                  src="../public/images/chef-1.jpeg"
                   alt=""
                   className="h-full w-full object-cover rounded-md"
                 />
@@ -46,7 +46,7 @@ const Chefs = () => {
             <div>
               <div className="h-80">
                 <img
-                  src="../../public/images/chef-2.jpeg"
+                  src="../public/images/chef-2.jpeg"
                   alt=""
                   className="h-full w-full object-cover rounded-md object-left-top"
                 />
@@ -67,7 +67,7 @@ const Chefs = () => {
             <div>
               <div className="h-80">
                 <img
-                  src="../../public/images/chef-3.jpeg"
+                  src="../public/images/chef-3.jpeg"
                   alt=""
                   className="h-full w-full object-cover rounded-md"
                 />
@@ -88,7 +88,7 @@ const Chefs = () => {
             <div>
               <div className="h-80">
                 <img
-                  src="../../public/images/chef-4.jpeg"
+                  src="../public/images/chef-4.jpeg"
                   alt=""
                   className="h-full w-full object-cover rounded-md"
                 />

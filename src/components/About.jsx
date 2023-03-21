@@ -8,12 +8,12 @@ const About = () => {
       <div className="flex flex-col xl:flex-row">
         <div className="flex flex-row w-[50%] h-[480px] lg:w[400px]">
           <img
-            src="../../public/images/about-1.jpeg"
+            src="../public/images/about-1.jpeg"
             alt=""
             className="object-cover lg:mr-8 lg:w-[350px]"
           />
           <img
-            src="../../public/images/about-2.jpeg"
+            src="../public/images/about-2.jpeg"
             alt=""
             className="object-cover lg:w-[350px]"
           />
