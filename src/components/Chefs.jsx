@@ -16,7 +16,7 @@ const Chefs = () => {
             <h1 className="mb-14 text-center">
               <span className="nav-logo text-[#EF5A34] text-6xl">Chefs</span>{" "}
               <br />
-              <span className="hero-title text-3xl">Our Master Chef</span>
+              <span className="hero-title text-3xl text-[#23212B]">Our Master Chef</span>
             </h1>
           </Fade>
         </div>

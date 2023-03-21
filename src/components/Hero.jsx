@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="mt-10">
           <div className="flex flex-col">
             <Fade bottom distance="20%">
-              <h1 className="hero-title text-[#23212B] text-5xl md:text-6xl lg:text-8xl md:leading-normal lg:leading-normal text-center lg:text-start">
+              <h1 className="hero-title text-[#23212B] text-5xl md:text-6xl lg:text-8xl md:leading-normal lg:leading-normal leading-normal text-center lg:text-start">
                 it's not just <br />{" "}
                 <span className="text-[#EF5A34]">Food,</span> It's an <br />{" "}
                 Experience

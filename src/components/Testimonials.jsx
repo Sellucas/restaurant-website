@@ -10,7 +10,7 @@ const Testimonials = () => {
           <h1 className="mb-14">
             <span className="nav-logo text-[#EF5A34] text-6xl">Testimony</span>{" "}
             <br />
-            <span className="hero-title text-3xl">Happy Customer</span>
+            <span className="hero-title text-3xl text-[#23212B]">Happy Customer</span>
           </h1>
         </div>
       </Fade>

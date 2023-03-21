@@ -11,7 +11,7 @@ const Services = () => {
           <h1 className="mb-14">
             <span className="nav-logo text-[#EF5A34] text-6xl">Services</span>{" "}
             <br />
-            <span className="hero-title text-3xl">Catering Services</span>
+            <span className="hero-title text-3xl text-[#23212B]">Catering Services</span>
           </h1>
         </div>
 

@@ -12,7 +12,7 @@ const Menu = () => {
                 Specialties
               </span>{" "}
               <br />
-              <span className="hero-title text-3xl">Our Menu</span>
+              <span className="hero-title text-3xl text-[#23212B]">Our Menu</span>
             </h1>
           </div>
         </Fade>
