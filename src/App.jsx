@@ -8,7 +8,7 @@ import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
-    <div className="App h-max bg-[#F1EFF0]">
+    <div className="App h-max bg-white">
       <Hero />
       <About />
       <Services />
