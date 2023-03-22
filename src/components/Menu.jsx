@@ -72,7 +72,7 @@ const Menu = () => {
                 </div>
                 <div className="m-4 flex-col">
                   <p className="pb-4 lg:w-52 text-[#8F8F8F] leading-8">
-                    Grilled Tilapia
+                    Grilled Tilapia, Tomato Salad and Onions.
                   </p>
                   <button class="bg-[#3EA86B] hover:bg-[#EF5A34] text-[#F1EFF0] py-2 px-4 lg:py-3 lg:px-6 rounded-lg tracking-wide ease-in duration-200">
                     Order Now
