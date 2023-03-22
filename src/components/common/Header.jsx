@@ -26,7 +26,7 @@ export const Header = () => {
         className="p-1 font-normal text-black"
       >
         <a href="#" className="flex items-center text-[#EF5A34]">
-          Pages
+          Home
         </a>
       </Typography>
       <Typography
@@ -36,7 +36,7 @@ export const Header = () => {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center text-[#23212B]">
-          Account
+          About
         </a>
       </Typography>
       <Typography
@@ -46,7 +46,7 @@ export const Header = () => {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center text-[#23212B]">
-          Blocks
+          Menu
         </a>
       </Typography>
       <Typography
@@ -56,7 +56,7 @@ export const Header = () => {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center text-[#23212B]">
-          Docs
+          Book a Table
         </a>
       </Typography>
     </ul>
